@@ -9,7 +9,7 @@ module.exports = async () => {
         };
         await mongoose.connect(
             // "mongodb://localhost/todo-app",
-            "mongodb+srv://caagane:caagane@cluster0.rpjsp4k.mongodb.net/?retryWrites=true&w=majority",
+            "mongodb+srv://caagane:caagane@cluster0.rpjsp4k.mongodb.net/todo-app?retryWrites=true&w=majority",
             connectionParams
         );
         console.log("Connected to database.");
